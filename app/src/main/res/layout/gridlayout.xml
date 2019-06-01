@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:columnCount="4"
+    app:rowCount="4"
+    android:paddingStart="8dp"
+    android:paddingLeft="8dp"
+    android:paddingEnd="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="16dp">
+
+    <!-- Row 1-->
+    <ImageView
+        android:id="@+id/ivInvite"
+        android:src="@drawable/carrer1"
+        app:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/ivNotificationOff"
+        android:src="@drawable/carrer1"
+        app:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/ivUnblock"
+        android:src="@drawable/carrer1"
+        app:layout_columnWeight="1"/>
+
+    <ImageView
+        android:id="@+id/ivSearchChat"
+        android:src="@drawable/carrer1"
+        app:layout_gravity="center_horizontal"/>
+
+    <!-- Row 2 -->
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Invite"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp" />
+
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Notification Off"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Unblock"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Search Chat"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <!-- Row 3 -->
+    <ImageView
+        android:id="@+id/ivShareLocation"
+        android:layout_marginTop="16dp"
+        app:layout_columnWeight="1"
+        android:src="@drawable/carrer1"/>
+    <ImageView
+        android:id="@+id/ivShareContact"
+        android:layout_marginTop="16dp"
+        app:layout_columnWeight="1"
+        android:src="@drawable/carrer1"/>
+
+    <ImageView
+        android:id="@+id/ivTakePhoto"
+        android:layout_marginTop="16dp"
+        app:layout_columnWeight="1"
+        android:src="@drawable/carrer1"/>
+
+    <ImageView
+        android:id="@+id/ivTakeVideo"
+        android:layout_marginTop="16dp"
+        app:layout_columnWeight="1"
+        android:src="@drawable/carrer1"/>
+
+    <!-- Row 4 -->
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Share Location"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Share Contact"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Take a Photo"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+
+    <TextView
+        app:layout_gravity="center_horizontal"
+        android:text="Take a Video"
+        android:fontFamily="sans-serif-light"
+        android:textSize="12sp"/>
+</android.support.v7.widget.GridLayout>

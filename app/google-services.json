@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "907276310596",
+    "firebase_url": "https://careergo-4cfaf.firebaseio.com",
+    "project_id": "careergo-4cfaf",
+    "storage_bucket": "careergo-4cfaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907276310596:android:565afc871051ab2d",
+        "android_client_info": {
+          "package_name": "com.example.shrijhajhra.careergo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907276310596-eiu94fmlo3eoo5fkkd14vubnp33s8cg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shrijhajhra.careergo",
+            "certificate_hash": "3f6ece228565a09ae35addd5907fb0ad15108752"
+          }
+        },
+        {
+          "client_id": "907276310596-ocdp2tcg1p2544u5lfbiliq6sv82asse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPAWPba6mSJfABJBtbDQpSeQUWId2QNLE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907276310596-ocdp2tcg1p2544u5lfbiliq6sv82asse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

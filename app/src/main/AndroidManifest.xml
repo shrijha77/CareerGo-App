@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shrijhajhra.careergo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_final1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_final1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="portrait"
+            android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="careergo-4cfaf.firebaseio.com"
+                    android:pathPattern="//careergo"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CategoryActivity"
+            android:label="Categories">
+        </activity>
+        <activity android:name=".careers">
+        </activity>
+        <activity android:name=".Category_based_career">
+        </activity>
+        <activity android:name=".Webview">
+        </activity>
+        <activity android:name=".LoginActivity">
+        </activity>
+        <activity android:name=".RegisterActivity">
+        </activity>
+        <activity android:name=".ForgetAndChangePasswordActivity">
+        </activity>
+        <activity
+            android:name=".testActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".test_result"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".user_profile"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".edit_user_profile">
+        </activity>
+        <activity android:name=".Career_path">
+        </activity>
+        <activity android:name=".exams">
+        </activity>
+        <activity android:name=".BasicActivity">
+        </activity>
+        <activity android:name=".Exam_details">
+        </activity>
+        <activity android:name=".collegeActivity">
+        </activity>
+        <activity android:name=".Articles">
+        </activity>
+        <activity android:name=".Article_details">
+        </activity>
+        <activity android:name=".Article_category">
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:label="About Us">
+        </activity>
+    </application>
+
+</manifest>

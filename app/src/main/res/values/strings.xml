@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Career GO</string>
+    <string name="title_activity_main1">MainActivity1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="large_text">
+        LargeText
+    </string>
+    <string name="bullet_text">Text with a \u2022</string>
+    <string name="hint_resource">Select Qualification</string>
+    <string name="career_act_heading">Careers</string>
+</resources>

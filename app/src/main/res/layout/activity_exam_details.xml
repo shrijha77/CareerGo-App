@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.example.shrijhajhra.careergo.Career_path">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="Exam Name"
+            android:id="@+id/exam_name"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Exam Overview"
+            android:id="@+id/exam_overview"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/dark"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@+id/view1"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"/>
+        <TextView
+            android:text="Pattern"
+            android:id="@+id/text2"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Exam Pattern"
+            android:id="@+id/exam_pattern"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/dark"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"/>
+        <TextView
+            android:text="Exam Time"
+            android:id="@+id/text3"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Exams date"
+            android:id="@+id/exam_date"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/dark"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <View
+            android:id="@+id/view2"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"/>
+        <TextView
+            android:text="Official Site"
+            android:id="@+id/site"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="not available"
+            android:id="@+id/link"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="11dp"
+            android:textColor="@color/blue"
+            android:layout_marginBottom="15dp"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
